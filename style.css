@@ -39,7 +39,7 @@
 
   --fw-reg: 400;
   --fw-semiBold: 600;
-  --fw-bold: 800;
+  --fw-bold: 700;
 
   --space-3700: 18.5em;
   --space-2100: 10.5em;
@@ -77,6 +77,10 @@
   display: flex;
 }
 
+body {
+  font-family: 'Manrope';
+}
+
 .header {
   background-color: var(--purple-900);
   padding: var(--space-400) var(--space-250);
@@ -86,4 +90,22 @@
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.hero__navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__button {
+  font-family: 'Manrope';
+  font-size: var(--fs-lrg);
+  font-weight: var(--fw-semiBold);
+  line-height: 1.5;
+  color: var(--white);
+  border: none;
+  background: none;
+  text-decoration: underline var(--green) 0.1875rem;
+  text-underline-position: under;
+  text-underline-offset: 0.1875rem;
 }
