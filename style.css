@@ -61,3 +61,18 @@
   --space-150: 0.75em;
   --space-100: 0.5em;
 }
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
