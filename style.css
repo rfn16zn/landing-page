@@ -119,7 +119,7 @@ body {
 }
 
 .hero__content {
-  margin: var(--space-700) var(--space-250);
+  padding: var(--space-700) var(--space-250);
   gap: var(--space-500);
   font-family: 'Fraunces';
   color: var(--white);
@@ -127,4 +127,10 @@ body {
   font-variation-settings: 'wght' var(--fw-semiBold);
   line-height: 1.2;
   text-align: center;
+}
+
+.title__underlined-word {
+  text-decoration: underline var(--green) 0.1875rem;
+  text-underline-position: under;
+  text-underline-offset: 0.1875rem;
 }
