@@ -119,18 +119,17 @@ body {
 }
 
 .hero__content {
-  padding: var(--space-700) var(--space-250);
+  padding: var(--space-700) 0;
   gap: var(--space-500);
   font-family: 'Fraunces';
   color: var(--white);
-  font-size: var(--fs-reg-desktop);
-  font-variation-settings: 'wght' var(--fw-semiBold);
-  line-height: 1.2;
+  font-size: var(--fs-lrg-mobile);
+  font-variation-settings:
+    'wght' 600, 'SOFT' 0, 'opsz' 144, 'WONK' 1;
+  line-height: 1;
   text-align: center;
 }
 
 .title__underlined-word {
   text-decoration: underline var(--green) 0.1875rem;
-  text-underline-position: under;
-  text-underline-offset: 0.1875rem;
 }
