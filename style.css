@@ -13,7 +13,7 @@
   font-family: 'Fraunces';
   src: url('assets/fonts/fraunces/Fraunces.woff2') format('woff2-variations');
   font-display: swap;
-  font-weight: 100 1000;
+  font-weight: 100 900;
 }
 
 @font-face {
@@ -32,10 +32,18 @@
   --green: #44ffa1;
   --white: #ffffff;
 
-  --fs-lrg: 1.125rem;
-  --fs-xlg: 2rem;
-  --fs-2xlg: 3.5rem;
-  --fs-3xlg: 5rem;
+  --fs-2xlg-desktop: 5rem;
+  --fs-xlg-desktop: 3.5rem;
+  --fs-lrg-desktop: 2rem;
+  --fs-reg-desktop: 1.125rem;
+
+  --fs-2xlg-tablet: 3.75rem;
+  --fs-xlg-tablet: 3rem;
+  --fs-lrg-tablet: 1.75rem;
+
+  --fs-2xlg-mobile: 3rem;
+  --fs-xlg-mobile: 2rem;
+  --fs-lrg-mobile: 1.5rem;
 
   --fw-reg: 400;
   --fw-semiBold: 600;
@@ -99,7 +107,7 @@ body {
 
 .navbar__button {
   font-family: 'Manrope';
-  font-size: var(--fs-lrg);
+  font-size: var(--fs-reg-desktop);
   font-weight: var(--fw-semiBold);
   line-height: 1.5;
   color: var(--white);
@@ -108,4 +116,15 @@ body {
   text-decoration: underline var(--green) 0.1875rem;
   text-underline-position: under;
   text-underline-offset: 0.1875rem;
+}
+
+.hero__content {
+  margin: var(--space-700) var(--space-250);
+  gap: var(--space-500);
+  font-family: 'Fraunces';
+  color: var(--white);
+  font-size: var(--fs-reg-desktop);
+  font-variation-settings: 'wght' var(--fw-semiBold);
+  line-height: 1.2;
+  text-align: center;
 }
